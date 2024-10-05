@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  /* customize scroll bar */
+  ::-webkit-scrollbar {
+    @apply w-2 h-2;
+  }
+
+  /* ::-webkit-scrollbar-track {
+      background: rgba(67, 67, 67, 0.3);
+    } */
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-surface-600/30 rounded-lg;
+  }
+}
