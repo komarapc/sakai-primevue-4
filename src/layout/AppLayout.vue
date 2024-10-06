@@ -60,6 +60,7 @@ function isOutsideClicked(event) {
     <div class="layout-main-container">
       <div class="layout-main">
         <router-view></router-view>
+        <ScrollTop />
       </div>
       <app-footer></app-footer>
     </div>
